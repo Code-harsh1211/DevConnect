@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://devconnect-backend-ztun.onrender.com",
+  baseURL: "baseURL: "https://devconnect-backend-ztun.onrender.com/api"",
 });
 
 
