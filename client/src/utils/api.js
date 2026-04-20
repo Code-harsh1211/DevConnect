@@ -1,9 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "baseURL: "https://devconnect-backend-ztun.onrender.com/api"",
+  baseURL: "https://devconnect-backend-ztun.onrender.com/api",
 });
-
 
 // Attach JWT token to every request
 api.interceptors.request.use((config) => {
