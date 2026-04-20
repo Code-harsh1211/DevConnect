@@ -60,3 +60,6 @@ const PORT = process.env.PORT || 5001;
 server.listen(PORT, () => {
   console.log(`🚀 DevConnect server running on port ${PORT}`);
 });
+app.get("/", (req, res) => {
+  res.send("DevConnect API is running 🚀");
+});
